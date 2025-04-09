@@ -1,0 +1,122 @@
+/* CSS for display of msDesc 
+/* Created for XML workshop in Leipzig
+/* by Katarzyna Anna Kapitan
+/* June 2019 */
+span.text {
+  display: block;
+  font: 16pt/18pt "Andron Scriptor Web";
+  margin: 25pt 45pt 25pt 75pt;
+  text-align: left;
+  width: 800pt
+}
+
+span.body { 
+display: inline}
+
+span.text:before { 
+content: "Transcription:";
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 100%;
+    }
+
+span.pb { display: block; }
+
+span.lb {display: block}
+
+
+span.l { display: block }
+
+span.div { display: inline }
+
+span.head {
+  display: inline;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  font-size: 20pt;
+  color: rgb(80%, 10%, 10%);
+}
+
+span.p { display: inline }
+
+span.hi_2 {
+  float: left;
+  width: auto;
+  font-size: 40pt;
+  padding-top: 10pt;
+  padding-right: 3pt
+}
+
+span.hi_underline{ text-decoration: underline }
+
+span.hi_rubric {color: darkred}
+
+span.hi_rubric_enlarged {color: darkred; 
+font-size: 160%;}
+
+span.supplied_omitted:before { content: "<" }
+
+span.supplied_omitted:after { content: ">" }
+
+span.unclear:before {content: "["}
+
+span.unclear:after {content: "]"}
+
+span.corr { display: none }
+
+span.ex { display: none }
+
+span.am { display: inline }
+
+span.space:before {content: " "}
+
+span.g_dipl {
+	display: inline;
+}
+span.g_norm {
+	display: none;
+}
+
+span.c_ini_2 {
+  font: bold;
+  float: left;
+  width: auto;
+  font-size: 40pt;
+  padding-top: 10pt;
+  padding-right: 3pt;
+  color: darkgreen;
+}
+
+span.c_ini_3 {
+   font: bold;
+  float: left;
+  width: auto;
+  font-size: 60pt;
+  line-height: 50pt;
+  padding-top: 0pt;
+  padding-right: 5pt;
+  color: darkred;
+}
+
+span.c_ini_4 {
+   font: bold;
+  float: left;
+  width: auto;
+  font-size: 110pt;
+  line-height: 90pt;
+  padding-top: 0pt;
+  padding-right: 5pt;
+  color: darkred;
+}
+span.c_ini_6 {
+font: bold;
+  float: left;
+  width: auto;
+  font-size: 130pt;
+  line-height: 100pt;
+  padding-top: 0pt;
+  padding-right: 5pt;
+  color: darkblue;
+    
+}
+

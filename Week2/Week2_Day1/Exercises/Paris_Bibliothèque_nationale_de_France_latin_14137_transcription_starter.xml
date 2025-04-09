@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <!-- Enter a title here. -->
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>France</country>
+                  <settlement>Paris</settlement>
+                  <repository>Bibliothèque nationale de France</repository>
+                  <idno>latin 14137</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" n="1">
+            <pb n="1r" facs="Paris_Bibliothèque_nationale_de_France_latin_14137_1r.jpg"/>
+            <p>
+               <lg>
+                  <l>
+                     <hi rend="rubric">Catulli Veronen&slong;is liber incipit <add type="marginal">
+                           .ad Corneliu<am>&bar;</am><ex>m</ex></add></hi>
+                  </l>
+                  <l><c type="initial" rend="6">C</c>vi dono lepidum nouum libellum</l>
+                  <l>Arid<unclear reason="illegible">o</unclear> m<am>&bar;</am><ex>odo</ex> pumice
+                     expolitum</l>
+                  <l>Co&rrot;neli &punctelev; tibi
+                        na<am>&bar;</am><ex>m</ex>q<am>&etfin;</am><ex>ue</ex> tu solebas</l>
+                  <l>Meas e&slong;&slong;e aliquid putare nugas.</l>
+                  <l>Iam tam<am>&bar;</am><ex>m</ex>, cu<am>&bar;</am><ex>m</ex> au&slong;us
+                        e<am>&bar;</am><ex>s</ex> Vnus italo<am>&rum;</am><ex>rum</ex></l>
+                  <l>O<space/>mne euu<am>&etfin;</am><ex>m</ex> trib<ex>u</ex>s explicare cartis</l>
+                  <l>D<space/>octis Iuppiter <am>&et;</am><ex>et</ex> labo&rrot;io&slong;is.</l>
+                  <l>Q<space/>uare tibi habe quicq<am>&barbl;</am><ex>ui</ex>d hoc libelli</l>
+                  <l>Q<space/>ualecu<am>&bar;</am><ex>m</ex>q<am>&etfin;</am><ex>ue</ex>
+                     <unclear> q<ex>uo</ex>d</unclear> patrona uirgo</l>
+                  <l>P<space/>lus uno maneat p<am>&barbl;</am><ex>er</ex>enne &slong;eclo</l>
+               </lg> fletus passeris Lesbie passer deliciae meae puellae quicum ludere quem in sinu
+               tenere cui primum digitum dare appetenti et acris solet incitare morsus cum desiderio
+               meo nitenti carum nescio quid lubet iocari et solaciolum sui doloris credo ut tum
+               gravis acquiescat ardor tecum ludere sicut ipsa possem et tristis animi levare curas
+               tam gratum est mihi quam ferunt puellae pernici aureolum fuisse malum quod zonam
+               soluit diu ligatam lugete o veneres cupidinesque et quantum est hominum venustiorum
+               passer mortuus est meae puellae passer deliciae meae puellae quem plus illa oculis
+               suis amabat nam mellitus erat suamque norat ipsam tam bene quam puella matrem nec
+               sese a gremio illius movebat sed circumsiliens modo huc modo illuc ad solam dominam
+               usque pipiabat. qui nunc it per iter tenebricosum illuc, unde negant redire quemquam.
+               at vobis male sit, malae tenebrae Orci, quae omnia bella devoratis: tam bellum mihi
+               passerem abstulistis o factum male! o miselle passer! tua nunc opera meae puellae
+               flendo turgiduli rubent ocelli. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

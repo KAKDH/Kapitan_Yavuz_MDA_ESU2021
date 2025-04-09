@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Germany, Leipzig, Universitätsbibliothek, Cod. Haen. 3518</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>
+               <persName>
+                  <forename>N. Kıvılcım</forename>
+                  <surname>Yavuz</surname>
+                  <email>nky@ku.edu</email>
+                  <affiliation>Kenneth Spencer Research Library, University of Kansas</affiliation>
+               </persName>
+            </authority>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Distributed under a
+                  Cretive Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+                  4.0).</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="en">
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Leipzig</settlement>
+                  <repository>Universitätsbibliothek Leipzig</repository>
+                  <idno>Cod. Haen. 3518</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem n="1" class="history" defective="false">
+                     <locus from="1ra" to="9rb"/>
+                     <author>Dares Phrygius</author>
+                     <title type="uniform">De excidio Troiae historia</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem n="1.1">
+                        <locus from="1ra" to="1ra"/>
+                        <title type="supplied">Prologue</title>
+                        <rubric>Incipit prologus</rubric>
+                        <incipit>Cornelius nepos salustio <lb/> suo salutem</incipit>
+                        <explicit>Nunc ad pollicitu<ex>m</ex>
+                           rev<ex>er</ex>tam<ex>ur</ex></explicit>
+                        <finalRubric>E</finalRubric>
+                     </msItem>
+                     <msItem n="1.2">
+                        <locus from="1ra" to="9rb"/>
+                        <title type="supplied">History</title>
+                        <incipit>Pelias rex fuit in peloponense <lb/> habuitq<ex>ue</ex></incipit>
+                        <explicit>Huc usq<ex>ue</ex> historia daretis scri <lb/> bitur qui Frigius
+                           fuit</explicit>
+                     </msItem>
+                  </msItem>
+                  <msItem n="2" class="history" defective="false">
+                     <locus from="10ra" to="59vb"/>
+                     <author>Galfridus Monemutensis</author>
+                     <title type="uniform">Historia regum Britannie</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <msItem n="2.1">
+                        <locus from="10ra" to="10rb"/>
+                        <title type="supplied">Prologue</title>
+                        <rubric>Incipit p<ex>ro</ex>log<ex>us</ex> in libro de gestis
+                              b<ex>ri</ex>tonu<ex>m</ex></rubric>
+                        <incipit>Cvm multa mecum <lb/> et de multis</incipit>
+                        <explicit>alterru<ex>m</ex> henricu<ex>m</ex> adepta in <lb/> terno
+                           gratulatur affectu</explicit>
+                        <finalRubric>Explicit p<ex>ro</ex>logus</finalRubric>
+                     </msItem>
+                     <msItem n="2.2">
+                        <locus from="10rb" to="10va"/>
+                        <title type="supplied">Description of Britain</title>
+                        <rubric>Incipit descriptio Britanni<ex>a</ex>e insul<ex>a</ex>e</rubric>
+                        <incipit>BRITANNIA insula <lb/> rvm optima occi <lb/> dentali</incipit>
+                        <explicit>Qualit<ex>er</ex> et unde applicuer<ex>un</ex>t restat nunc
+                              p<ex>er</ex>ara <lb/> re ut in sequentib<ex>us</ex>
+                              explicabit<ex>ur</ex></explicit>
+                        <finalRubric>Explicit desc<ex>ri</ex>p <lb/>tio Britanni<ex>a</ex>e
+                              insul<ex>a</ex>e</finalRubric>
+                     </msItem>
+                     <msItem n="2.3">
+                        <locus from="10va" to="15ra"/>
+                        <title type="supplied">Book I</title>
+                        <rubric>Incip<ex>it</ex> lib<ex>er</ex> p<ex>ri</ex>m<ex>us</ex></rubric>
+                        <incipit>Eneas post troianu<ex>m</ex> bellum excidium <lb/> urbis cum
+                           ascanio</incipit>
+                        <explicit>auunculus bruti latin<ex>orum</ex> tercius</explicit>
+                        <finalRubric>Explicit lib<ex>er</ex> primus</finalRubric>
+                     </msItem>
+                     <msItem n="2.4">
+                        <locus from="15ra" to="18ra"/>
+                        <title type="supplied">Book II</title>
+                        <rubric>Incip<ex>it</ex> s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>s</rubric>
+                        <incipit>Cognouerat aute<ex>m</ex> brut<ex>us</ex></incipit>
+                        <explicit>q<ex>uo</ex>d ipse ad confirmatione<ex>m</ex> legu<ex>m</ex>
+                           construxe <lb/> rat</explicit>
+                        <finalRubric>Explicit lib<ex>er</ex> ii<ex>us</ex></finalRubric>
+                     </msItem>
+                  </msItem>
+                  <msItem n="3" class="history" defective="false">
+                     <locus from="60ra" to="69vb"/>
+                     <title type="uniform">Historia Apollonii regis Tyrii</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <incipit>Fuit quida<ex>m</ex> rex in antiochia ciuitate nomine
+                        Antiochus</incipit>
+                     <explicit>aliud bibliotech<ex>a</ex>e sue exposuit</explicit>
+                  </msItem>
+                  <msItem n="4" class="history" defective="true">
+                     <locus from="70ra" to="142vb"/>
+                     <author>Beda</author>
+                     <title type="uniform">Historia ecclesiastica gentis Anglorum</title>
+                     <textLang mainLang="la">Latin</textLang>
+                     <rubric>Incipit prologvs bede pr<ex>e</ex>sb<ex>ite</ex>ri in historia
+                           eccl<ex>es</ex>iastica anglo<ex>rum</ex>
+                     </rubric>
+                     <incipit>GLORIOSISSIMO Geouulfo regi beda famulus <ex>christ</ex>i et
+                        presbiter</incipit>
+                     <explicit>Concordat au<ex>tem</ex> eis q<ex>u</ex>i sine preueniente
+                           gr<ex>ati</ex>a <ex>christ</ex>i se saluari posse confidunt</explicit>
+                     <finalRubric>deo gra<ex>tia</ex>s</finalRubric>
+                     <note>The text ends abruptly in the middle of Book V and the next leaf, fol.
+                           <locus from="143r" to="143v"/> is blank. The final rubric is written by a
+                        different hand.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="perg">
+                        <support>
+                           <num type="front-flyleaf" value="1"/>
+                           <num type="book-block" value="143"/>
+                           <num type="end-flyleaf" value="0"/>
+                           <dimensions type="leaf">
+                              <height unit="mm" quantity="320"/>
+                              <width unit="mm" quantity="220"/>
+                           </dimensions>
+                           <note>The front and back pastedowns as well as the front flyleaf are made
+                              of paper. There is a separate piece of paper that contains a table of
+                              contents in Italian, which is now pasted on the verso of the front
+                              flyleaf.</note>
+                           <watermark>Both the front flyleaf and the piece of paper pasted on to the
+                              verso of the front flyleaf contain different watermarks.</watermark>
+                        </support>
+                        <foliation>Two sets of foliation: foliated i-x, x(bis)-lxxvii, 78-142 in
+                           brown ink in the upper right corner of each recto and foliated 1-143 in
+                           pencil in the upper right corner of each recto, underneath the older
+                           foliation.</foliation>
+                        <collation>I (9), II-VIII (8), IX (4), X-XVIII (8), XIX (2). Fols <locus
+                              from="5" to="5"/>, <locus from="142" to="142"/> and <locus from="143"
+                              to="143"/> are singletons.</collation>
+                        <condition>In good condition, with minor imperfections on
+                           parchment.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="37">
+                           <dimensions type="written">
+                              <height unit="mm" quantity="250"/>
+                              <width unit="mm" quantity="167"/>
+                           </dimensions>
+                           <p>Pricking marks on inner margins visible on most folios.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="99">
+                     <handNote>Written by more than one hand.</handNote>
+                  </handDesc>
+                  <scriptDesc>
+                     <scriptNote script="praegothica">Written in Praegothica.</scriptNote>
+                  </scriptDesc>
+                  <decoDesc>
+                     <decoNote type="initial">Decorated and plain initials on fols <locus from="1r"
+                           to="1r"/>, <locus from="3v" to="3v"/>, <locus from="7r" to="7r"/>, <locus
+                           from="8v" to="8v"/>.</decoNote>
+                     <decoNote type="initial">A six-line decorated initial C on fol. <locus
+                           from="1r" to="1r"/>.</decoNote>
+                     <decoNote type="initial">A ten-line decorated initial P on fol. <locus
+                           from="1r" to="1r"/>.</decoNote>
+                     <decoNote type="running-title">Running titles in the upper margins are visible
+                        on some folios.</decoNote>
+                  </decoDesc>
+                  <additions>
+                     <p>Several marginal annotations by different hands, such as on fols <locus
+                           from="1v" to="1v"/>, <locus from="7v" to="7v"/>, <locus from="8v" to="8v"
+                        />, <locus from="12v" to="12v"/>, <locus from="23r" to="23r"/>, <locus
+                           from="23v" to="23v"/>, <locus from="24v" to="24v"/>.</p>
+                     <stamp>There is a University of Leipzig Library stamp that reads EX DONO
+                           GUSTAVI HAENEL 1878 BIBLIOTHECA UNIVERS. LIPSIENSIS on fol. <locus
+                           from="1r" to="1r"/>.</stamp>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="false">
+                        <p>Modern. Bound with parchment over paperboards, with five raised bands.
+                           Endbands in two alternating colours. There are remnants of leather
+                           fastenings on the fore-edges of the binding. The title on the spine
+                           reads: <q>Bedae pres</q>.</p>
+                        <condition>
+                           <dimensions type="binding">
+                              <height unit="mm" quantity="330"/>
+                              <width unit="mm" quantity="240"/>
+                              <depth unit="mm" quantity="40"/>
+                           </dimensions>
+                           <p>In good condition.</p>
+                        </condition>
+                     </binding>
+                  </bindingDesc>
+                  <accMat>There is a separate piece of paper written in Italian by a modern hand,
+                     commenting on the contents of the manuscript.</accMat>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origDate notBefore="1150" notAfter="1250">The end of the twelfth or the
+                        beginning of the thirteenth century.</origDate>
+                     <origPlace cert="medium">England, northern France or Flanders.</origPlace>
+                  </origin>
+                  <provenance>Previously owned by <name type="person" role="owner">Gustav
+                        Hänel</name>, who signed his name as <signatures><quote>G.
+                        Hänel</quote></signatures> in the upper right corner of fols <locus
+                        from="1r" to="1r"/> and <locus from="142v" to="142v"/>.</provenance>
+                  <acquisition>Donated by <name type="person" role="owner">Gustav Hänel</name> to
+                        <name type="institution" role="owner">the University of Leipzig</name> in
+                        <date when="1878"/> as indicated in the library stamp.</acquisition>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>First catalogued on <date when="2019-07-16"/> by <name type="person"
+                           role="researcher">N. Kıvılcım Yavuz</name> to be used as part of manuscript description
+                           exercises of the "Manuscripts in the Digital Age: XML-Based Catalogues
+                           and Editions" Workshop. </source>
+                        <change>Revised and developed during the 2019 Workshop on <date
+                              notBefore="2019-07-25" notAfter="2019-07-27"/>. </change>
+                        <change>Last updated by <name type="person" role="researcher">N. Kıvılcım Yavuz</name> on
+                              <date when="2021-08-01"/>. Information may be incomplete or
+                           incorrect.</change>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><p>A facsimile of the manuscript is available on <ref type="url"
+                           target="http://www.manuscripta-mediaevalia.de/dokumente/html/obj31576527"
+                           >Manuscripta Medievalia</ref>.</p>
+                     <p>A newer, IIIF-compliant facsimile of the manuscript is available on <ref
+                           type="url"
+                           target="https://digital.ub.uni-leipzig.de/object/viewid/0000029039"
+                        />Leipzig University Library.</p></surrogates>
+                  <listBibl>
+                     <bibl>Louis Faivre d’Arcier, <title>Histoire et géographie d’un mythe. Circulation des
+                        manuscrits du De excidio Troiae de Darès le Phrygien</title>, VIIIe–XVe siècles
+                        (Paris, 2006), p. 57.</bibl>
+                     <bibl>Robert Naumann, <title>‘Handschriften und Urkunden in der Bibliothek des Herrn
+                        Hofrath und Prof. Dr. Gustav Hänel in Leipzig’</title>, Serapeum 7 (1846):
+                        234–37.</bibl>
+                     <bibl>Jaakko Tahkokallio, <title>'Update to the List of Manuscripts of Geoffrey of
+                        Monmouth’s Historia regum Britanniae’</title>, Arthurian Literature 32 (2015):
+                        187–203.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+   <facsimile>
+      <graphic
+         url="Germany_Leipzig_Cod_Haen_3518_Facsimile_0013.jpg"
+      />
+   </facsimile>
+</TEI>

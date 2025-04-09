@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <!-- Enter a title here. -->
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Germany</country>
+                  <settlement>Dresden</settlement>
+                  <repository>Sächsische Landesbibliothek – Staats- und
+                     Universitätsbibliothek</repository>
+                  <idno>Mscr.Dresd.Dc.133</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" n="1">
+            <pb n="1r" facs="Dresden_Sächsische_Landesbibliothek_Mscr.Dresd.Dc.133_1r.jpg"/>
+            <p>
+               <hi rend="rubric">P. CATVLLI VERONENSIS PO<choice>
+                     <sic>C</sic>
+                     <corr cert="high" resp="KAK">E</corr>
+                  </choice>TAE<lb/> EPITHALAMIGRAPHI LIBER INCI<lb/>PIT FOELICITER:</hi>
+               <lg>
+                  <l><c type="initial" rend="4">C</c><hi rend="rubric_enlarged">V<choice>
+                           <sic>O</sic>
+                           <corr/>
+                        </choice>I &hidot; DO<lb/>NO &hidot; LEPI<lb/>DVM &hidot; NO<lb/>VVM &hidot;
+                     </hi><lb/> libellum</l>
+                  <l>A<space/>rido modo pumice expolitum</l>
+                  <l>C<space/>orneli tibi nanq<choice>
+                        <am>&etfin;</am>
+                        <ex>ue</ex>
+                     </choice> tu &slong;olebas</l>
+                  <l>M<space/>eas e&slong;&slong;e aliquid putare nugas.</l>
+                  <l>I<space/>am tamen cum au&slong;us unus italo<choice>
+                        <am>&rum;</am>
+                        <ex>rum</ex>
+                     </choice></l>
+                  <l>O<space/>mne euum tribus explicare chartis</l>
+                  <l>D<space/>o&ctlig;is iupiter <choice>
+                        <am> &amp;</am>
+                        <ex>et</ex>
+                     </choice> laborio&slong;is</l>
+                  <l>Q<space/>vare tibi habe quicquid hoc libelli</l>
+                  <l>Q<space/>ualencunq<choice>
+                        <am>&etfin;</am>
+                        <ex>ue</ex>
+                     </choice> quod patrona uirgo</l>
+                  <l>P<space/>lus uno maneat perenne &slong;eclo</l>
+               </lg> passerem extinctum queritur passer deliciae meae puellae quicum ludere quem in
+               sinu tenere cui primum digitum dare appetenti et acris solet incitare morsus cum
+               desiderio meo nitenti carum nescio quid lubet iocari et solaciolum sui doloris credo
+               ut tum gravis acquiescat ardor tecum ludere sicut ipsa possem et tristis animi levare
+               curas tam gratum est mihi quam ferunt puellae pernici aureolum fuisse malum quod
+               zonam soluit diu ligatam lugete o veneres cupidinesque et quantum est hominum
+               venustiorum passer mortuus est meae puellae quem plus illa oculis suis amabat nam
+               mellitus erat suamque norat ipsam tam bene quam puella matrem nec sese a gremio
+               illius movebat sed circumsiliens modo huc modo illuc ad solam dominam usque
+               pipiabat</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <!-- Enter a title here. -->
+            </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               <!-- Enter publication information here. -->
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>United Kingdom</country>
+                  <settlement>Oxford</settlement>
+                  <repository>Bodleian Library</repository>
+                  <idno>Canon. Class. Lat. 30</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poem" n="1">
+            <pb n="1r" facs="Oxford_Bodleian_Library_Canon._Class._Lat._30_1r.jpg"/>
+            <p>
+               <lg>
+                  <l><c type="initial" rend="3">C</c>Ui dono lepidu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice> nouu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice> libellu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice></l>
+                  <l>Arido m<choice>
+                        <am>&bar;</am>
+                        <ex>od</ex>
+                     </choice>o pumice expolitu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice></l>
+                  <l>Co&rrot;neli tibi. namq<choice>
+                        <am>&etfin;</am>
+                        <ex>ue</ex>
+                     </choice> tu &slong;olebas</l>
+                  <l>M<space/>eas e&slong;&slong;e aliquid putare nugas</l>
+                  <l>I<space/>am tu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice> cu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice> au&slong;us e<choice>
+                        <am>&bar;</am>
+                        <ex>s</ex>
+                     </choice> unus italo&rrot;u<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice></l>
+                  <l>O<space/>m<choice>
+                        <am>&bar;</am>
+                        <ex>n</ex>
+                     </choice>e euu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice> trib<choice>
+                        <am>&etfin;</am>
+                        <ex>us</ex>
+                     </choice> explicare cartis</l>
+                  <l>D<space/>octis iupit<choice>
+                        <am>&er;</am>
+                        <ex>er</ex>
+                     </choice> et labo&rrot;io&slong;is.</l>
+                  <l>Q<space/>uare tibi habe quicq<choice>
+                        <am>&barbl;</am>
+                        <ex>ui</ex>
+                     </choice>d h<choice>
+                        <am>&ercurl;</am>
+                        <ex>oc</ex>
+                     </choice> libelli</l>
+                  <l>Qualecu<choice>
+                        <am>&bar;</am>
+                        <ex>m</ex>
+                     </choice>q<choice>
+                        <am>&etfin;</am>
+                        <ex>ue</ex>
+                     </choice>
+                     <choice>
+                        <am> &qbardes;</am>
+                        <ex>quod</ex>
+                     </choice> patrona uirgo</l>
+                  <l>P<space/>lus uno maneat peri<choice>
+                        <am>&rsup;</am>
+                        <ex>r</ex>
+                     </choice>e &slong;eclo</l>
+               </lg> passer deliciae meae puellae quicum ludere quem in sinu tenere cui primum
+               digitum dare atpetenti ea acris solet incitare morsus cum desiderio meo nitenti carum
+               nescio quid lubet iocari et solaciolum sui doloris credo ut cum gravis acquiescat
+               ardor tecum ludere sicut ipsa possem et tristis animi levare curas tam gratum est
+               mihi quam ferunt puellae pernici aureolum fuisse malum quod zonam soluit diu negatam
+               lugete o veneres cupidinesque et quantum est hominum venustiorum passer mortuus est
+               meae puellae passer deliciae meae puellae quem plus illa oculis suis amabat nam
+               mellitus erat suamque norat <pb n="1v"
+                  facs="Oxford_Bodleian_Library_Canon._Class._Lat._30_1v.jpg"/>ipsam tam bene quam
+               puella matrem nec sese a gremio illius movebat sed circumsiliens modo huc modo illuc
+               ad solam dominam usque pipiabat. qui nunc it per iter tenebrosum illud, unde negant
+               redire quemquam. at vobis male sit malae tenebrae Orci quae omnia bella devoratis tam
+               bellum mihi passerem abstulistis boonum factum male bonus ille passer tua nunc opera
+               meae puellae flendo turgiduli rubent ocelli. </p>
+         </div>
+      </body>
+   </text>
+</TEI>

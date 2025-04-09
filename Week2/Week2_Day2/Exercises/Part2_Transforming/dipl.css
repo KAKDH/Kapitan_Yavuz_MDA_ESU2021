@@ -1,0 +1,73 @@
+/* CSS for display of msDesc 
+/* Created for XML workshop in Leipzig
+/* by Katarzyna Anna Kapitan
+/* June 2019 */
+span.text {
+  display: block;
+  font: 16pt/18pt "Andron Scriptor Web";
+  margin: 25pt 45pt 25pt 25pt;
+  text-align: justify;
+  width: 700pt;
+}
+
+span.body { 
+display: inline}
+
+span.text:before { 
+content: "Transcription:";
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 100%;
+    }
+
+span.pb { display: inline; }
+
+span.lb { display: inline }
+span.lb:before {content: "|"}
+
+span.l { display: block }
+
+span.div { display: block }
+
+span.head {
+  display: block;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  font-size: 20pt;
+  color: rgb(80%, 10%, 10%);
+}
+
+span.p { display: block }
+
+span.hi_2 {
+  float: left;
+  width: auto;
+  font-size: 40pt;
+  padding-top: 10pt;
+  padding-right: 3pt
+}
+
+span.hi_underline { text-decoration: underline }
+
+span.hi_lig { letter-spacing: -4px }
+
+span.supplied_omitted:before { content: "<" }
+
+span.supplied_omitted:after { content: ">" }
+
+span.corr:before { content: "*" }
+span.corr {color: red;}
+
+span.sic { display: none }
+
+span.ex { 
+font-style: italic ;
+color: green;
+
+}
+
+span.space { display: none }
+
+span.am { display: none }
+
+
